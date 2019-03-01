@@ -6,7 +6,7 @@ tecks
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Build Status](https://travis-ci.com/ropenscilabs/tecks.svg?branch=master)](https://travis-ci.com/ropenscilabs/tecks)
 
-Wrapper for Python's [bibtexparser](https://bibtexparser.readthedocs.io)
+Wrapper for Python's [bibtexparser](https://bibtexparser.readthedocs.io) [src](https://github.com/sciunto-org/python-bibtexparser)
 
 the `bibtex` pkg may or may not be getting attention moving forward - maybe this will help in the meantime ...
 
