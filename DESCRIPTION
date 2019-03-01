@@ -1,0 +1,19 @@
+Package: tecks
+Title: Wrapper for Python's bibtexparser Library
+Description: Wrapper for Python's bibtexparser Library.
+Version: 0.0.1.9100
+Authors@R: c(
+    person("Scott", "Chamberlain",
+        role = c("aut", "cre"),
+        email = "sckott@protonmail.com",
+        comment = c(ORCID = "orcid.org/0000-0003-1444-9135")))
+License: MIT + file LICENSE
+URL: https://github.com/ropenscilabs/tecks
+BugReports: http://github.com/ropenscilabs/tecks/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    reticulate
+Suggests:
+    testthat
+RoxygenNote: 6.1.1

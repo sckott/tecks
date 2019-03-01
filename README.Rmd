@@ -1,0 +1,52 @@
+tecks
+========
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE
+)
+```
+
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Build Status](https://travis-ci.com/ropenscilabs/tecks.svg?branch=master)](https://travis-ci.com/ropenscilabs/tecks)
+
+Wrapper for Python's [bibtexparser](https://bibtexparser.readthedocs.io)
+
+the `bibtex` pkg may or may not be getting attention moving forward - maybe this will help in the meantime ...
+
+**BEWARE: VERY ALPHA**
+
+## Installation
+
+```{r eval=FALSE}
+remotes::install_github("ropenscilabs/tecks")
+```
+
+```{r}
+library("tecks")
+```
+
+## read bibtex file
+
+```{r}
+z <- system.file("extdata/bib-many.bib", package = "tecks")
+out <- teck_read(path = z)
+out
+names(out)
+```
+
+`entries` is probably the thing you want
+
+```{r}
+out$entries
+```
+
+## Meta
+
+* Please [report any issues or bugs](https://github.com/ropenscilabs/tecks/issues).
+* License: MIT
+* Get citation information for `tecks` in R doing `citation(package = 'tecks')`
+* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+[![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
