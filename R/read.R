@@ -21,11 +21,5 @@ teck_read <- function(path) {
   tmp <- py$open(path.expand(path))
   on.exit(tmp$close(), add = TRUE)
   res <- bparser$load(tmp)
-  # with(py$open(path.expand(path)) %as% file, {
-  #   res = bparser$load(file)
-  # })
   return(res)
 }
-# with(py$open("/Users/sckott/Downloads/mrg.bib") %as% file, {
-#   big = bparser$load(file)
-# })

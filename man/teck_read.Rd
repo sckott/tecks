@@ -18,6 +18,7 @@ Read in a bibtex file
 \examples{
 z <- system.file("extdata/bib-many.bib", package = "tecks")
 out <- teck_read(path = z)
+out
 names(out)
 # "entries" is the main thing you want most likely
 out$entries
