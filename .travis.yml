@@ -1,5 +1,5 @@
 language: r
-sudo: false
+sudo: required
 cache: packages
 dist: trusty
 
@@ -8,8 +8,13 @@ env:
   - R_BUILD_ARGS="--no-manual"
   - R_CHECK_ARGS="--as-cran --no-manual"
 
+addons:
+  apt:
+    packages:
+      - python-dev
+
 before_install:
-  - pip install bibtexparser
+  - pip install --user bibtexparser
 
 notifications:
   email:
