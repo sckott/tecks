@@ -4,7 +4,7 @@ tecks
 
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![Build Status](https://travis-ci.com/ropenscilabs/tecks.svg?branch=master)](https://travis-ci.com/ropenscilabs/tecks)
+[![Build Status](https://travis-ci.com/sckott/tecks.svg?branch=master)](https://travis-ci.com/sckott/tecks)
 
 Wrapper for Python's [bibtexparser](https://bibtexparser.readthedocs.io) [src](https://github.com/sciunto-org/python-bibtexparser)
 
@@ -16,7 +16,7 @@ the `bibtex` pkg may or may not be getting attention moving forward - maybe this
 
 
 ```r
-remotes::install_github("ropenscilabs/tecks")
+remotes::install_github("sckott/tecks")
 ```
 
 
@@ -121,9 +121,7 @@ out$entries
 
 ## Meta
 
-* Please [report any issues or bugs](https://github.com/ropenscilabs/tecks/issues).
+* Please [report any issues or bugs](https://github.com/sckott/tecks/issues).
 * License: MIT
 * Get citation information for `tecks` in R doing `citation(package = 'tecks')`
 * Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
-[![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
